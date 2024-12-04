@@ -47,7 +47,7 @@ li{
 .card-evento{
 
    width: 20%;
-   background-color: aliceblue;
+   background-color: rgb(250, 235, 215);
 
 }
 
@@ -57,7 +57,10 @@ card-text{
 
 }
 
-# eventos{
+container{
 
-    background-color: antiquewhite;
+    display: flex;
+
+
 }
+

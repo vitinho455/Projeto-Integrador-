@@ -55,7 +55,7 @@ button {
     color: black;
 }
 
-ul {}
+
 
 li {
     font-family: Arial, Helvetica, sans-serif;
@@ -68,47 +68,28 @@ img {
     border-radius: 10px;
 }
 
-.card-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Define 3 colunas */
-    gap: 5px; /* Espaçamento entre os cards */
-    margin: 0px; /* Margem ao redor do container */
-    justify-items: center; /* Centraliza os cards */
-    align-items: center; /* Alinha os cards verticalmente */
+
+.card h5{
+
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: medium;
+   margin-top: 0px;
+    
 }
 
-.card {
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: none;
-    background-color: transparent;
-    padding: 10px;
-    text-align: center;
-    width: 68%; 
-    margin: 0;
-}
-
-.card img {
-    width: 80%;
-    border-radius: 15px;
-}
-
-.card h5 {
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 18%;
+    
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    
+  }
+  
+  .container {
+    padding: 2px 20px;
     margin-top: -15px;
-    margin-left: 15px;
-    margin-right: -15px;
-    font-size: 1.1em;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #333;
-}
-
-.card .btn {
-    width: 20%;
-    padding: 5px;
-    background-color: #707377;
-    color: rgb(255, 255, 255);
-    border: none;
-    border-radius: 15px;
-    margin-top: -70px;
-    margin-left: -200px;
-}
+  }

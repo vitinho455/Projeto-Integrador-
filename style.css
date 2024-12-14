@@ -14,6 +14,7 @@
     text-align: center;
 }
 
+
 .container_pesquisar{
     margin-top: -30px;
     width: 100%;
@@ -63,52 +64,89 @@ li {
     margin-bottom: 4.0rem;
 }
 
-img {
-    margin-left: 3.2rem;
-    border-radius: 10px;
-}
 
-.card-container {
+.container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Define 3 colunas */
-    gap: 5px; /* Espaçamento entre os cards */
-    margin: 0px; /* Margem ao redor do container */
-    justify-items: center; /* Centraliza os cards */
-    align-items: center; /* Alinha os cards verticalmente */
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas */
+    max-width: 1100px;
+    margin: 0 auto;
+   
+
 }
 
 .card {
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: none;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    margin: 1rem;
     background-color: transparent;
-    padding: 10px;
-    text-align: center;
-    width: 68%; 
-    margin: 0;
+    box-shadow: none;
+    border: none;
+
 }
 
 .card img {
-    width: 80%;
+    width: 90%;
     border-radius: 15px;
+     margin-top: 20px;
+     margin-left: 16px;
 }
 
 .card h5 {
-    margin-top: -15px;
-    margin-left: 15px;
-    margin-right: -15px;
-    font-size: 1.1em;
+    font-size: 1.2rem;
+    margin-top: -20px;
+    font-size:medium;
     font-family: Arial, Helvetica, sans-serif;
-    color: #333;
 }
 
-.card .btn {
-    width: 20%;
-    padding: 5px;
-    background-color: #707377;
-    color: rgb(255, 255, 255);
-    border: none;
-    border-radius: 15px;
-    margin-top: -70px;
-    margin-left: -200px;
+.card a {
+  margin-top: -17px;
+  margin-left: 19px;
+  padding: 6px;
+  border: none;
+  background-color: rgb(83, 87, 87);
+  color: #fff; 
+  border-radius: 2.5rem; 
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card a {
+    background-color: #6b6d70;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Efeito de elevação no hover */
+}
+
+#evento-destaque {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.imagem-evento img {
+    width: 100%;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    margin-top: 5px;
+}
+
+.texto-evento h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: -60px;
+}
+
+.texto-evento p {
+    font-size: 1.2rem;
+    color: #2b2828; /* Cor do texto em tom cinza para suavidade */
+    line-height: 1.5; /* Espaçamento entre linhas */
+    text-align: justify; /* Alinhamento justificado */
+    margin: 20px auto; /* Margens superior e inferior */
+    max-width: 800px; /* Largura máxima para limitar o comprimento */
+    padding: 0 20px; /* Espaço interno para melhorar a leitura */
+    word-spacing: 0.05em; /* Espaçamento entre palavras */
 }

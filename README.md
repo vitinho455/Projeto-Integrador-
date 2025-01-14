@@ -24,7 +24,7 @@
 - Guarde a pasta em algum lugar que facilite para você abrir ela mais fácil no GIT. ( cd/local da pasta/nome da pasta ).
 - Crie um arquivo de qualquer linguagem e bote algo dentro.
 - Faça o passo a passo. (git init > git add > git commit). Obs: o git push só quando for necessário empurrar para o GitHub.
-- Utilize o git status para saber como está a sua pasta.
+- Utilize o git status para saber o status da sua pasta.
 - Quando alterar algo no arquivo, faça o passo a passo. (git add > git commit).
 
 

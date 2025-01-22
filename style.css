@@ -16,6 +16,26 @@
 }
 
 
+.sobre h1{
+    color: white;
+}
+
+.sobre p{
+    color: white;
+}
+
+.sobre img{
+    width:100%;
+    height: 400px;
+}
+
+.sobre{
+    width: 100%;
+	background-color:black;
+	padding: 40px;
+	box-sizing: border-box;
+}
+
 body {
     background-color: rgb(255, 255, 255);
 }

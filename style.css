@@ -46,6 +46,7 @@ header img{
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
   }
+  
 /*-- Sobre -*/
 
 .sobre h1{
@@ -55,12 +56,12 @@ header img{
 .sobre p{
     color: white;
     text-align: justify;
-    width: 1340px;
     padding: 10px;
+   
 }
 
 
-.sobre1 p {
+.historia p {
     width: 1000px;
     height: 200px;               
     color: white;
@@ -81,16 +82,14 @@ header img{
     color: white;
     margin-left: -950px;
     padding: 290px;
-    height: 300px;
+    height: 600px;
     width: 280px;
     text-align: justify;
 
 }
 
-.sobre1{
+.historia{
     display: flex;
-    margin-left: auto;
-
 
 }
 .sobre2 img{
@@ -99,7 +98,7 @@ header img{
     margin: -10px;
 }
 
-.sobre1 img{
+.historia img{
     width: 230px;
     height: 220px;
     border-radius: 250px;
@@ -107,11 +106,13 @@ header img{
 }
 
 .sobre{
-    width: 100%;
+    width: 99.44%;
 	background-color:black;
 	padding: 40px;
 	box-sizing: border-box;
-    height: 500px;
+    height: 540px;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* -----------------------------*/
@@ -165,6 +166,8 @@ input#search {
     background-color: rgb(18, 25, 65);
     padding: 2.7rem;
     text-align: center;
+    width: 94.79%;
+
 }
 
 .container {
@@ -172,7 +175,7 @@ input#search {
     grid-template-columns: repeat(3, 1fr); 
     max-width: 1100px;
     margin: 0 auto;
-margin-right: auto;   
+    margin-right: auto;   
 
 }
 

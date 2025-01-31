@@ -1,60 +1,68 @@
 * {
-    margin: 0; padding: 0;
+    margin: 0;
+    padding: 0;
 }
+
 /* logo */
 .navbar {
     display: flex;
     align-items: center;
-    justify-content: flex-start; /* Garante que a logo fique à esquerda */
+    justify-content: flex-start;
+    /* Garante que a logo fique à esquerda */
     gap: 10px;
-  }
-  
-  .logo-luciano {
-    height: 0; /* Deixando a logo bem pequena */
-    width: auto; /* Mantém a proporção da imagem */
-    margin-left: 0; /* Posiciona a logo bem na margem esquerda */
-    margin-right: 0; /* Remove qualquer espaço à direita da logo */
-  }
-  
-  .nav-items {
+}
+
+.logo-luciano {
+    height: 0;
+    /* Deixando a logo bem pequena */
+    width: auto;
+    /* Mantém a proporção da imagem */
+    margin-left: 0;
+    /* Posiciona a logo bem na margem esquerda */
+    margin-right: 0;
+    /* Remove qualquer espaço à direita da logo */
+}
+
+.nav-items {
     display: flex;
     gap: 5px;
-  }
-  
-  .nav-items li {
+}
+
+.nav-items li {
     list-style: none;
-  }
-  
-  .nav-items a {
+}
+
+.nav-items a {
     text-decoration: none;
     color: #000;
-  }  
-  
+}
+
 /*cabeçalho inicio*/
 #cabecalho_inicio {
     background-color: black;
     padding: 2.3rem;
 }
 
-#cabecalho_inicio, a{
+#cabecalho_inicio,
+a {
 
     text-decoration: none;
     text-align: center;
     color: aliceblue;
-    font-weight:bold;
+    font-weight: bold;
 }
 
 /*-- Sobre -*/
-header img{
+header img {
 
     width: 100%;
     height: 640px;
-    
-  }
-  
-  .container_inicio{
+
+}
+
+.container_inicio {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     width: 100%;
     height: 360px;
     margin-bottom: 50px;
@@ -64,9 +72,9 @@ header img{
     /* margin-left: 60px; */
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-  }
-  
-  .realizamos{
+}
+
+.realizamos {
     /* max-width: 50%;
     float: right;
     width: 50%;
@@ -74,33 +82,34 @@ header img{
     font-size: large; */
     margin-top: 20px;
 }
-  
-  .assessoria{
+
+.assessoria {
     /* float: left;
     width: 50%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: large; */
     margin-right: 100px;
     margin-top: 20px;
-  }
+}
 
-  .assessoria p{
+.assessoria p {
     margin-top: 15px;
     width: 500px;
     text-align: justify;
 }
 
-.assessoria h2{
+.assessoria h2 {
     margin-left: 24px;
     text-align: justify;
     width: 500px;
 }
 
-.realizamos ul{
+.realizamos ul {
 
     margin-top: 40px;
 }
-.realizamos li{
+
+.realizamos li {
     list-style: inside;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -108,11 +117,11 @@ header img{
 
 /*-- Sobre -*/
 
-.sobre h1{
+.sobre h1 {
     color: white;
 }
 
-.sobre p{
+.sobre p {
     color: white;
     text-align: justify;
     width: 1340px;
@@ -122,55 +131,56 @@ header img{
 
 .sobre1 p {
     width: 1000px;
-    height: 200px;               
+    height: 200px;
     color: white;
     padding: 70px;
     text-align: justify;
     margin-right: -950px;
-   
+
 }
 
-.sobre4 h3{
+.sobre4 h3 {
     color: white;
     padding: 255px;
     margin-left: -855px;
     font-weight: bold;
 }
 
-.sobre5 p{
+.sobre5 p {
     color: white;
     margin-left: -950px;
     padding: 290px;
     height: 300px;
     width: 280px;
     text-align: justify;
-    
+
 }
 
-.sobre1{
+.sobre1 {
     display: flex;
     margin-left: auto;
-    
+
 
 }
-.sobre2 img{
-    width:100%;
+
+.sobre2 img {
+    width: 100%;
     height: 300px;
     margin: -10px;
 }
 
-.sobre1 img{
+.sobre1 img {
     width: 230px;
     height: 220px;
     border-radius: 250px;
     padding: 30px;
 }
 
-.sobre{
+.sobre {
     width: 100%;
-	background-color:black;
-	padding: 40px;
-	box-sizing: border-box;
+    background-color: black;
+    padding: 40px;
+    box-sizing: border-box;
     height: 500px;
 }
 
@@ -214,7 +224,7 @@ input#search {
     margin-top: -50px;
 }
 
-.container_pesquisar{
+.container_pesquisar {
     margin-top: -30px;
     width: 100%;
     justify-content: center;
@@ -229,20 +239,20 @@ input#search {
 
 .container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
+    grid-template-columns: repeat(3, 1fr);
     max-width: 1100px;
     margin: 0 auto;
-margin-right: auto;   
+    margin-right: auto;
 
 }
 
 #orcamento {
     display: flex;
-    justify-content: center; 
-    align-items: center;   
+    justify-content: center;
+    align-items: center;
     padding: 10px;
-    width: 100%; 
-    
+    width: 100%;
+
 }
 
 
@@ -254,14 +264,14 @@ margin-right: auto;
     color: white;
     width: 9%;
     background-color: rgb(30, 40, 80);
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); 
-    transition: transform 0.3s ease, box-shadow 0.5s ease; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.5s ease;
     margin-left: 40px;
 }
 
 #orcamento a:hover {
-    transform: translateY(-1px); 
-    box-shadow: 5px 8px 12px rgba(0, 0, 0, 0.4); 
+    transform: translateY(-1px);
+    box-shadow: 5px 8px 12px rgba(0, 0, 0, 0.4);
 }
 
 .card {
@@ -284,12 +294,12 @@ margin-right: auto;
     font-size: 1.2rem;
     margin: 0px;
     margin-left: 20px;
-    font-size:medium;
+    font-size: medium;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .card:hover {
-    transform: translateY(-5px); 
+    transform: translateY(-5px);
 }
 
 /* -----------------------------*/
@@ -307,8 +317,8 @@ margin-right: auto;
 }
 
 .imagem-evento img {
-    width: 1150px; 
-    height: 630px; 
+    width: 1150px;
+    height: 630px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     margin-top: 50px;
@@ -322,13 +332,13 @@ margin-right: auto;
 
 .texto-evento p {
     font-size: 1.3rem;
-    color: #2b2828; 
-    line-height: 1.5; 
-    text-align: justify; 
-    margin: 20px auto; 
-    max-width: 800px; 
-    padding: 0 20px; 
-    word-spacing: 0.05em; 
+    color: #2b2828;
+    line-height: 1.5;
+    text-align: justify;
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 0 20px;
+    word-spacing: 0.05em;
 }
 
 /* -----------------------------*/
@@ -337,8 +347,8 @@ margin-right: auto;
 
 .rodape {
     display: flex;
-    justify-content: space-around; 
-    align-items: center; 
+    justify-content: space-around;
+    align-items: center;
     padding: 10px;
     background-color: black;
     margin-top: 17px;
@@ -347,7 +357,7 @@ margin-right: auto;
 
 .rodape .icon {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     align-items: center;
     text-align: center;
     gap: 10px;
@@ -355,41 +365,43 @@ margin-right: auto;
     margin-top: 15px;
 }
 
-.rodape p, a#btt_whats {
+.rodape p,
+a#btt_whats {
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     font-weight: bold;
 }
 
-.rodape a#btt_insta{
+.rodape a#btt_insta {
     padding: 0;
     background-color: transparent;
 }
 
-.rodape a{
+.rodape a {
     padding: 6px;
     background-color: rgb(5, 133, 245);
     border-radius: 20px;
     width: 130px;
-    
+
 }
+
 .rodape a:hover {
-    transform: translateY(-5px); 
+    transform: translateY(-5px);
     transition: transform 0.5s ease;
 }
-}
+
 
 /*Orçamentos*/
 
-body {
+#body_orcamento {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
 }
 
-.container {
+.container_orcamento {
     max-width: 700px;
     margin: 50px auto;
     background-color: #1b2a4e;
@@ -400,7 +412,7 @@ body {
     text-align: center;
 }
 
-h1 {
+.container_orcamento h1 {
     text-align: center;
     margin-bottom: 20px;
     font-size: 24px;
@@ -440,7 +452,7 @@ h1 {
 
 .TiposDeEventos-group {
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     gap: 15px;
     align-items: center;
 }
@@ -448,9 +460,9 @@ h1 {
 .TiposDeEventos-group label {
     display: flex;
     align-items: center;
-    gap: 8px; 
+    gap: 8px;
     font-size: 14px;
-    width: 250px; 
+    width: 250px;
 }
 
 .TiposDeEventos-group input[type="checkbox"] {
@@ -485,7 +497,7 @@ h1 {
 
 .icons-container {
     display: flex;
-    gap: 10px; 
+    gap: 10px;
     margin-top: 5px;
 }
 
@@ -510,7 +522,8 @@ h1 {
     transition: 0.3s;
 }
 
-input[type="submit"], input[type="reset"] {
+input[type="submit"],
+input[type="reset"] {
     background-color: #1b2a4e;
     color: #FFF;
     border: 0;
@@ -521,12 +534,12 @@ input[type="reset"] {
     background-color: #CCC;
 }
 
-.rodape {
+.rodape_orcamento {
     max-width: 700px;
     margin: 50px auto;
     display: flex;
-    justify-content: space-around; 
-    align-items: center; 
+    justify-content: space-around;
+    align-items: center;
     padding: 20px;
     background-color: black;
     margin-top: 17px;
@@ -535,9 +548,9 @@ input[type="reset"] {
 }
 
 
-.rodape .icon {
+.rodape_orcamento .icon {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     align-items: center;
     text-align: center;
     gap: 10px;
@@ -545,34 +558,36 @@ input[type="reset"] {
     margin-top: 15px;
 }
 
-.rodape p, a#btt_whats {
+.rodape_orcamento p,
+a#btt_whats {
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     font-weight: bold;
 }
 
-.rodape a#btt_insta{
+.rodape_orcamento a#btt_insta {
     padding: 0;
     background-color: transparent;
 }
 
-.rodape a{
+.rodape_orcamento a {
     padding: 6px;
     background-color: rgb(5, 133, 245);
     border-radius: 20px;
     width: 130px;
 
 }
-.rodape a:hover {
-    transform: translateY(-5px); 
+
+.rodape_orcamento a:hover {
+    transform: translateY(-5px);
     transition: transform 0.5s ease;
 }
 
-footer{
+#footer_orcamento {
     color: aliceblue;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: larger;
-    font-style:italic;
-    
+    font-style: italic;
+
 }

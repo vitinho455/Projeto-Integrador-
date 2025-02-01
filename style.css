@@ -22,6 +22,8 @@
     /* Posiciona a logo bem na margem esquerda */
     margin-right: 0;
     /* Remove qualquer espaço à direita da logo */
+    position: left;
+
 }
 
 .nav-items {
@@ -47,11 +49,16 @@
 
 #cabecalho_inicio,
 a {
-
+    display: flex;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
     text-decoration: none;
     text-align: center;
     color: aliceblue;
     font-weight: bold;
+    gap:20px;
+    justify-content: center;
+    margin-top: 30px;
 }
 
 /*-- Inicio -*/

@@ -305,9 +305,8 @@ input#search {
     color: #2b2828;
     text-align: justify;
     width: 60%;
-    display: flex;
-    justify-self: center;
     margin-top: 16px;
+    margin-left: 380px;
 }
 /* -----------------------------*/
 

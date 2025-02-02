@@ -261,7 +261,6 @@ input#search {
 }
 
 .card h5 {
-    width: 100%;
     margin: 0px;
     margin-left: 27px;
     font-size:medium;
@@ -303,12 +302,10 @@ input#search {
 .texto-evento p {
     font-size: 1.3rem;
     color: #2b2828;
-    line-height: 1.5;
     text-align: justify;
-    margin: 20px auto;
-    max-width: 800px;
-    padding: 0 20px;
-    word-spacing: 0.05em;
+    width: 60%;
+    justify-self: center;
+    margin-top: 15px;
 }
 
 /* -----------------------------*/

@@ -293,13 +293,14 @@ input#search {
     margin-top: 50px;
 }
 
-.texto-evento h2 {
+
+.texto_evento h2{
     font-size: 1.8rem;
     font-weight: bold;
     margin-top: 0px;
 }
 
-.texto-evento p {
+.texto_evento p {
     font-size: 1.3rem;
     color: #2b2828;
     text-align: justify;
@@ -307,7 +308,6 @@ input#search {
     justify-self: center;
     margin-top: 16px;
 }
-
 /* -----------------------------*/
 
 /* ------- rodapé -------*/

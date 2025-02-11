@@ -356,7 +356,7 @@ a#btt_whats {
     transition: transform 0.5s ease;
 }
 
-#footer_nomes h3 {
+.footer_nomes h3 {
     background-color: #000;
     color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
@@ -367,7 +367,7 @@ a#btt_whats {
 
 /*Orçamentos*/
 
-#body_orcamento {
+.body_orcamento {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -546,46 +546,49 @@ input[type="reset"] {
     #cabecalho_inicio {
         padding: 30px;
         height: 35px;
-        width: 470px;
+        width: 640px;
     }
 
     #cabecalho_inicio a {
         font-size: medium;
         display: flex;
         justify-content: center;
-        margin-right: -20px;
+        margin-right: -3px;
     }
 
     #cabecalho_inicio img {
         height: 40px;
-        left: 20px;
+        left: 80px;
+        top: 22px;
     }
 
     /* Imagem do cabeçalho */
     header img {
         height: 250px;
-        width: 530px;
+        width: 700px;
     }
 
     /* Seção de Introdução */
     .container_inicio {
         height: 350px;
         font-size: large;
-        margin-top: 20px;
+        margin: 40px 40px 130px 20px;
         display: grid;
+        justify-items: center;
+        justify-content: center;
+        
     }
 
-    .realizamos, .assessoria{
-
-        margin-left: 175px;
+    .assessoria{
+        margin-left: 400px;
     }
 
     .realizamos{
-        margin-left: 200px;
-        margin-top: 30px;
+        margin-left: 220px;
     }
+
     .realizamos ul{
-        margin-top: 10px;
+        margin-top: 20px;
     }
 
         .funcao p {
@@ -596,6 +599,7 @@ input[type="reset"] {
         .sobre {
             height: auto;
             padding:5px;
+            width: 690px;
         }
 
         .img_txt img {
@@ -651,18 +655,18 @@ input[type="reset"] {
         }
 
         #cabecalho_eventos{
-            width: 444px;
+            width: 615px;
         }
 
 
         input#search {
 
-            margin-left: 150px;
+            margin-left: 200px;
             width: 55%;
         }
 
         .card{
-            margin-left: 4px;
+            margin-left: 64px;
         }
 
         .card img {
@@ -676,24 +680,29 @@ input[type="reset"] {
         }
 
         #orcamento {
-            width: 51%;
-            margin-left: 130px;
+            width: 64%;
+            margin-left: 220px;
         }
 
         /* Página dos eventos */
+
+        
+
+
         .imagem-evento img {
             width: 90%;
             height: auto;
+            margin-left: 130px;
         }
 
         .texto_evento p {
             width: 90%;
-            margin-left: auto;
-            margin-right: auto;
+            margin-left: 130px;
+
         }
 
         .texto_evento h2 {
-
+            margin-left: 160px;
             font-size: x-large;
         }
 
@@ -702,6 +711,12 @@ input[type="reset"] {
             display: flex;
             justify-content: space-around;
             align-items: center;
+            width: 682px;
+        }
+
+        .footer_nomes{
+            width: 685px;
+            
         }
 
         .rodape .icon {
@@ -717,9 +732,34 @@ input[type="reset"] {
 
         }
 
+        .body_orcamento{
+            margin-right: -290px;
+        }
+
+        form{
+            width: 77%;
+        }
+
+        .formulário-group{
+            margin-left: 90px;
+        }
+
+        .botoes{
+            margin-left: 80px;
+            width: 80%;
+        }
+
+
+
+
+
+
+
+
         .container_orcamento h1{
             margin-top: 15px;
         }
+
         .pagamento-icons{
             margin-left: -60px;
         }

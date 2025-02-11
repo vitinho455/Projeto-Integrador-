@@ -355,7 +355,14 @@ a#btt_whats {
     transition: transform 0.5s ease;
 }
 
-
+#footer_nomes h3{
+    background-color: #000;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    margin-top: 10px;
+    font-style: italic;
+}
 /*Orçamentos*/
 
 #body_orcamento {
@@ -521,11 +528,17 @@ input[type="reset"] {
 }
 
 
-@media (max-width: 450px) {
+@media (max-width: 480px) {
     /* Cabeçalho */
 
+    *{
+       margin: 0;
+       padding: 0;
+
+    }
     #cabecalho_inicio {
-        padding: 15px;
+        padding: 20px;
+        width: 100%;
     }
 
     #cabecalho_inicio a {
@@ -536,13 +549,14 @@ input[type="reset"] {
     }
 
     #cabecalho_inicio img {
-        height: 40px;
-        left: 10px;
+        height: 50px;
+        left: 20px;
     }
 
     /* Imagem do cabeçalho */
     header img {
-        height: 200px;
+        height: 250px;
+        width: 520px;
     }
 
     /* Seção de Introdução */
@@ -552,23 +566,12 @@ input[type="reset"] {
         margin-top: 20px;
     }
 
-    .assessoria,
-    .realizamos {
-        margin: 10px;
-        text-align: center;
-    }
-    
-
-    .assessoria p,
-    .assessoria h2 {
+    .assessoria, .realizamos {
+        text-align: justify;
+        line-height: 1.0;
+        display: block;
         width: 100%;
-
-    }
-
-    .realizamos ul {
-        margin-top: 20px;
-        padding-left: 10px;
-    }
+        margin-bottom: 20px; /* Espaço entre os elementos */
 
     .funcao p{
         width: 90%;
